@@ -1,3 +1,9 @@
+@tailwind base;
+/* purgecss start ignore */
+@tailwind components;
+@tailwind utilities;
+/* purgecss end ignore */
+
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
