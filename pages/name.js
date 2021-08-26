@@ -85,7 +85,7 @@ export default function NamePage({ name }) {
       </motion.button>
       <CustomLink
         href="/about"
-        text="About Us"
+        text="About This Project"
         variants={fade}
         extraClasses="absolute bottom-0 left-0 sm:mb-5 sm:ml-5 sm:text-base mb-3 ml-3 text-sm"
       />
