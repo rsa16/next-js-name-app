@@ -9,7 +9,7 @@ export default function AboutPage() {
       exit={{ opacity: 0 }}
       className="text-xl h-screen flex items-center justify-center relative bg-fixed bg-center bg-cover bg-no-repeat"
     >
-      About us.&nbsp; <CustomLink href="/" text="Back" />
+      Just a simple application experimenting with cookies, nextJS, framer motion, and tailwindcss.&nbsp; <CustomLink href="/" text="Back" />
     </motion.div>
   );
 }
