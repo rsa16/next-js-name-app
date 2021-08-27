@@ -40,8 +40,9 @@ export default function IndexPage() {
     }
   };
 
-  const [name, setName] = useState("");
   const [cookies, setCookie] = useCookies(["name"]);
+  const [name, setName] = useState(cookies.name ? cookies.name : "");
+
   const router = useRouter();
 
   function onNextBtnClick() {
@@ -52,6 +53,8 @@ export default function IndexPage() {
     });
     router.push("/name");
   }
+
+
   return (
     <motion.div
       initial="initial"
